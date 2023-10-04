@@ -1,0 +1,203 @@
+:root {
+  --primary: #00b98e;
+  --secondary: #effdf5;
+  --light: #effdf5;
+  --dark: #0e2e50;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header h1{
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+
+}
+
+
+.container-header header-logo {
+  color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap ;
+
+}
+
+.container-header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap:wrap ;
+
+ padding: 0px 50px;
+ height: 70px;
+}
+
+.header-menu ul{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.header-menu ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.header-menu ul li a:hover{
+  color: var(--primary);
+}
+
+.main{
+  background-color: var(--secondary);
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  width: 100%;
+  padding: 30px 50px;
+}
+
+
+
+.main-col1{
+  width: 40%;
+}
+
+.imagem-casa{
+  width: 40%;
+}
+
+.get-started{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: var(--primary);
+  color: white;
+}
+
+.get-started texto-get-started{
+  text-decoration: none;
+  
+}
+
+section{
+  padding: 30px 50px;
+}
+.section-title{
+  font-size: 32px;
+}
+
+.section-description{
+  font-size: 14px;
+}
+
+
+
+.sec-1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  text-align: center;
+  color: var(--dark);
+  
+}
+
+.card-property-type{ 
+  width: 400px;
+  height: 300px;
+  background-color: var(--cor-primaria);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 2px solid var(--primary);
+}
+.card-img-property-types{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cabeçalho-seçao{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cabeçalho-seçao p{
+  text-align: justify;
+}
+
+.container-cards{
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  padding: 10px;
+}
+
+.card figure{
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sec-2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  text-align: center;
+  color: var(--dark);
+
+  background-color: var(--secondary);
+}
+
+.sec-2 h3{
+  color: var(--primary);
+}
+
+.sec-2 p{
+  color: var(--dark);
+}
+
+.sec-1 .container-cards p{
+  color: var(--primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Fonte: Heebo*/
